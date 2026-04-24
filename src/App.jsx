@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,9 +16,7 @@ function App() {
         </div>
         <div>
           <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
+          <p>Edit <code>src/App.jsx</code> and save to test <code>HMR</code></p>
         </div>
         <button
           type="button"
@@ -29,9 +26,7 @@ function App() {
           Count is {count}
         </button>
       </section>
-
       <div className="ticks"></div>
-
       <section id="next-steps">
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
